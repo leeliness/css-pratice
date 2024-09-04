@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .main, .footer {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    height: 30vh;
+    background-color: #be0a0a; 
+    justify-content: flex-start; 
+}
+
+.main {
+    height: 40vh;
+    background-color: #6b0bda; 
+    justify-content: center; 
+}
+
+.footer {
+    height: 30vh;
+    background-color: #bd0695; 
+    justify-content: flex-end; 
+}
+
+.text {
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
